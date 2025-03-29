@@ -1,0 +1,17 @@
+#dahlia-category-icon-selector{
+    .icon-selector{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        gap: 10px;
+        .icon-button{
+            padding:.3rem;
+            &.selected{
+                border:3px solid darkblue;
+                .dahlia-icon{
+                    background-color:darkblue;
+                }
+            }
+        }
+    }
+}
